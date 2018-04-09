@@ -9,7 +9,6 @@ operation:
         import uuid
         uuid = str(uuid.uuid1())
 
-
     outputs:
       - output_1
 
