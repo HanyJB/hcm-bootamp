@@ -13,4 +13,4 @@ operation:
       - uuid: ${uuid}
 
     results:
-      - SUCCESS:
+      - SUCCESS
