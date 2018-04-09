@@ -4,9 +4,9 @@ namespace: io.cloudslang.demo
 operation:
     name: uuid
 
-python_action:
-Script: |
-import uuid
+    python_action:
+      Script: |
+        import uuid
         uuid = str(uuid.uuid1())
 
 
