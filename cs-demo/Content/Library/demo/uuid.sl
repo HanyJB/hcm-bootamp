@@ -10,7 +10,7 @@ operation:
         uuid = str(uuid.uuid1())
 
     outputs:
-      - output_1
+      - uuid: ${uuid}
 
     results:
       - SUCCESS: ${returnCode == '0'}
